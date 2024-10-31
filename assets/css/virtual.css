@@ -1447,3 +1447,7 @@ a:hover, a:active {
 .btn-theme:hover {
     background-color: #3f71f8; /* Warna latar belakang saat hover */
 }
+
+.jdlskill {
+    color: #EF3724;
+}
