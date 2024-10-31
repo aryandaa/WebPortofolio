@@ -1428,3 +1428,22 @@ a:hover, a:active {
 .theme-purple .theme-list li::before {
     border-color: #6f42c1;
 }
+
+.portfolio-button {
+        display: flex; /* Menggunakan flexbox untuk penataan */
+        justify-content: center; /* Mengatur konten di tengah secara horizontal */
+        margin-bottom: 5px; /* Jarak bawah tombol */
+    }
+
+.btn-theme {
+    padding: 10px 20px; /* Padding tombol */
+    background-color: #2960f7; /* Warna latar belakang tombol */
+    color: #fff; /* Warna teks tombol */
+    text-decoration: none; /* Menghapus garis bawah */
+    border-radius: 5px; /* Sudut melengkung */
+    transition: background-color 0.3s; /* Efek transisi */
+}
+
+.btn-theme:hover {
+    background-color: #3f71f8; /* Warna latar belakang saat hover */
+}
