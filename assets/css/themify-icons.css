@@ -22,7 +22,9 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
+.bi-star:before {
+	content: "\F588";
+}
 .ti-wand:before {
 	content: "\e600";
 }
