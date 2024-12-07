@@ -135,20 +135,6 @@ a:hover, a:active {
 /* 
     2. Button
 */
-.btn-github {
-    background-color: #24292e; /* Warna latar belakang GitHub */
-    color: white; /* Warna teks */
-    padding: 10px 20px; /* Padding untuk tombol */
-    border-radius: 5px; /* Sudut membulat */
-    text-decoration: none; /* Menghapus garis bawah */
-    font-weight: bold; /* Teks tebal */
-    transition: background-color 0.3s; /* Efek transisi */
-}
-
-.btn-github:hover {
-    background-color: #3b4045; /* Warna latar belakang saat hover */
-}
-
 .btn-theme {
     padding: 10px 30px;
     margin: 5px;
@@ -592,13 +578,6 @@ a:hover, a:active {
 
 .navbar-nav .nav-link {
     padding: 14px 10px;
-}
-
-@media (max-width: 768px) {
-    .btn-github {
-        padding: 8px 16px;
-        font-size: 14px;
-    }
 }
 
 @media (min-width: 576px) {
